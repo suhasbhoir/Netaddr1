@@ -24,6 +24,6 @@ print(f'Summarized subnets are capture in text file in same directory')
 
 end = time.time()
 print(f'Total {no_ip_sub} routes are summarize within {end-start} ')
-print('\nScript written by SUHAS B.')
+print('\nCode written by SUHAS B.')
 
 
