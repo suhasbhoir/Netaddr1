@@ -6,7 +6,7 @@ start = time.time()
 total_ip_sub = []
 for line in open('route.txt', 'r').readlines():
     total_ip_sub.append(IPNetwork(line.strip()))
-# print(total_ip_sub)
+# print(capture_raw)
 no_ip_sub = (len(total_ip_sub))
 print(f'Total {no_ip_sub} Ip subnets need to be Summarize')
 ip_summarization = cidr_merge(total_ip_sub)
